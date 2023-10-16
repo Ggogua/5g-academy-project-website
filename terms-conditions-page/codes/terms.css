@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to bottom, #bbe6f9, #b6e1f2, #acdbfa, #BEDEF4, #B4DBF8, #B0DAF5, #9ED4FA, #89C9F9, #5EB6F6);
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 800px;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.all-in {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+.terms-cons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    font-weight: 600;
+}
+
+.inside-text {
+    margin-top: 12px;
+}
+
+.intext-bold {
+    font-weight: 800;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    padding: 12px 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.agree {
+    background-color: black;
+    color: white;
+}
+
+.decline {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}

@@ -1,0 +1,143 @@
+.main-info {
+    position: relative;
+}
+
+.information-text {
+    margin: 0;
+    position: absolute;
+    top: -36px;
+}
+
+.bars {
+    margin-top: 80px;
+}
+
+.main-info .name-bar {
+    padding: 10px 400px 10px 10px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.500);
+    outline: none;
+    position: relative;
+}
+
+.name-bar-first {
+    padding: 10px 400px 10px 10px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.500);
+    outline: none;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+}
+
+.name-bar-last {
+    padding: 10px 400px 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 0 0 8px 8px;
+    position: relative;
+}
+
+.divine-line {
+    width: 570px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.account-info {
+    margin-top: 40px;
+    position: relative; 
+}
+
+.account-text {
+    position: absolute;
+    top: -46px;
+}
+
+.name-bar {
+    padding: 10px 400px 10px 10px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.500);
+    outline: none;
+    position: relative;
+}
+
+.student-info {
+    position: relative;
+    margin-top: 40px;
+}
+
+.student-text {
+    position: absolute;
+    top: -46px;
+}
+
+
+.material-symbols-outlined {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+
+.icon-container {
+    position: absolute;
+    display: inline-block; 
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icon-container-1 {
+    position: absolute;
+    top: 37px;
+    right: -4.5px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.log-in {
+    padding: 12px 80px; 
+    color: #485B92;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-right: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.1s;
+}
+
+.log-in:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.log-in:active {
+    translate: 0 1%;
+}
+
+.sign-up {
+    padding: 12px 80px; 
+    color: white;
+    border: none;
+    background-color: #485B92;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-left: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.1s;
+}
+
+.sign-up:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sign-up:active {
+    translate: 0 1%;
+}
+
+

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #bbe6f9, #b6e1f2, #acdbfa, #BEDEF4, #B4DBF8, #B0DAF5, #9ED4FA, #89C9F9, #5EB6F6);
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.full-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+.left-container {
+    width: 700px;
+    height: 100vh;
+    background-color: #11398364;
+    margin: 0;
+    padding: 0;
+}  
+
+.love-smile {
+    font-size: 24px;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.percent {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.two-lines {
+    margin-top: 40px;
+    font-size: 24px;
+    color: white;
+}
+
+.lover-smile {
+    width: 150px;
+}
+
+.last-text {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.date {
+    margin-top: 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #bbe6f9, #b6e1f2, #acdbfa, #BEDEF4, #B4DBF8, #B0DAF5, #9ED4FA, #89C9F9, #5EB6F6);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.calendar {
+    display: inline-block;
+    background-color: transparent; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.month {
+    padding: 10px;
+    background: transparent; 
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: transparent; 
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: transparent; 
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+}
+
+.numbers {
+    color: black;
+}
+
+

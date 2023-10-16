@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to bottom, #bbe6f9, #b6e1f2, #acdbfa, #BEDEF4, #B4DBF8, #B0DAF5, #9ED4FA, #89C9F9, #5EB6F6);
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.avatar-imgs {
+    display: flex;
+}
+
+.male-photo, .female-photo {
+    width: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.uomo, .donna {
+    font-size: 24px;
+
+}
+
+.photos {
+    margin-top: 80px;
+}
+
+
+
+

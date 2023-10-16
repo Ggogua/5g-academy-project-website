@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign-up.css">
+    <link rel="stylesheet" href="sign-up-bars.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Myfe.com</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="/landing-page/codes/landing-page.html">
+            <img src="/landing-page/photos/myfe-icon.png" alt="myfe-logo" class="myfe-logo-class">
+            </a>
+            <p class="myfe-text">Crea il tuo account MYFE</p>
+            <div class="bars">
+                <div class="main-info">
+                    <p class="information-text">Informazioni personali</p>
+                    <input placeholder="Nome" class="name-bar-first" id="user-name-bar">
+                    <input placeholder="Cognome" class="name-bar">
+                    <input placeholder="Genere" class="name-bar" id="genere-bar">
+                    <input placeholder="Data di nascita" class="name-bar-last">
+                    <div class="divine-line"></div>
+                </div>
+                <div class="account-info">
+                    <p class="account-text">Account</p>
+                    <input type="email" placeholder="Email istituzionale" class="name-bar-first" id="account-bar-first" required>
+                    <input placeholder="Password" class="name-bar" id="account-bar-second" required>
+                    <input placeholder="Ripeti la password" class="name-bar-last" id="account-bar-third" required>
+                    <div class="divine-line"></div>
+                </div>
+                <div class="student-info">
+                    <p class="student-text">Informazioni studente</p>
+                    <input placeholder="Dipartimento" class="name-bar-first" required>
+                    <div class="icon-container">
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Corso di laurea" class="name-bar" required>
+                        <i class="material-icons">
+                            <div class="icon-container-1">
+                                <span class="material-symbols-outlined">arrow_drop_down</span>
+                            </div>
+                        </i>
+                    </div>
+                    <input placeholder="Anno di immatricolazione" class="name-bar-last" required>
+                    <div class="icon-container">
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </div>
+                </div>              
+                <div class="buttons">
+                    <button class="log-in" onclick="window.location='../../landing-page/codes/landing-page.html'">Annulla</button>
+                    <button class="sign-up" id="sign-up-button" >Crea Account</button>
+
+                    <div class="container-all-in" id="maincontainer">
+                        <div class="popup-container">
+                            <div class="popup" id="popup">
+                                    Ci teniamo alla tua sicurezza e alla tua privacy, proprio per questo ti invitiamo a leggere attentamente i nostri termini di servizio e condizioni sulla privacy. Cliccando su “Agree” ed utilizzando MYFE dichiarerai di aver letto, compreso ed accettato le nostre policy. 
+
+                                    Termini di Servizio
+                                    
+                                    - L'accesso alla web app è riservato esclusivamente agli studenti universitari con credenziali valide.
+                                    - L'accesso richiede verifica e potrebbe richiedere l'autenticazione tramite i sistemi dell'università.
+                                    - Gli studenti possono utilizzare il servizio per esprimere liberamente le proprie emozioni in un ambiente sicuro.
+                                    - È vietato utilizzare il servizio per scopi illegali o per violare i diritti di terzi.
+                                    - Gli utenti devono rispettare le leggi applicabili e non danneggiare il servizio o gli altri utenti.
+                                    - La web app include un assistente 2D dotato di intelligenza artificiale non generativa.
+                                    - L'assistente interagisce con gli studenti e comprende i loro stati emotivi.
+                                    Tuttavia, l'assistente   non può sostituire un professionista della salute mentale e fornisce solo informazioni generali.
+                                    - I diritti di proprietà intellettuale della web app, inclusi marchi registrati, diritti d'autore e diritti di brevetto, sono di nostra esclusiva proprietà.
+                                    - Gli utenti non possono copiare, modificare, distribuire o sfruttare commercialmente il servizio senza il nostro consenso scritto.
+                                    - Non possiamo garantire la completa sicurezza e disponibilità continua del servizio.
+                                    - Decliniamo ogni responsabilità per danni o perdite derivanti dall'utilizzo del servizio o dalle informazioni fornite.
+                                    - Gli utenti sono responsabili delle proprie azioni e decisioni all'interno della web app.
+                                    <span class="next-text" id="next-link">
+                                        Next >
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+<script src="sign-up.js"></script>
+<script src="background-color.js"></script>
+</body>
+</html>

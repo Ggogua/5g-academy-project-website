@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to bottom, #bbe6f9, #b6e1f2, #acdbfa, #BEDEF4, #B4DBF8, #B0DAF5, #9ED4FA, #89C9F9, #5EB6F6);
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 900px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.myfe-logo-class {
+    width: 220px;
+    cursor: pointer;
+}
+
+.myfe-text {
+    font-size: 20px;
+}
+
+.name-bar {
+    display: block;
+}
+
+.popup {
+    width: 550px;
+    background-color: grey;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    visibility: hidden;
+    right: 650px;                                                        
+}
+
+.open-popup {
+    visibility: visible;
+    box-shadow: 0px 0px 1920px 1080px rgba(0, 0, 0, 0.9);
+}
+
+.next-text {
+    display: block;
+    margin-top: 8px;
+    text-decoration: underline;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.second-page {
+    border-radius: 4px;
+    position: absolute;
+    background-color: grey;
+    padding: 16px;
+    top: -8px;
+    width: 500px;
+    top: 260px;
+    visibility: hidden;
+}
+
+.button1,.button2 {
+    border: none;
+    padding: 16px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    margin-right: 8px;
+}
+
+.button2 {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 8px;
+}
+
+

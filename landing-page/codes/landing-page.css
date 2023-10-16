@@ -1,0 +1,100 @@
+body {
+     background: linear-gradient(to bottom, #bbe6f9, #b6e1f2, #acdbfa, #BEDEF4, #B4DBF8, #B0DAF5, #9ED4FA, #89C9F9, #5EB6F6);
+     width: 100%;
+     height: 100vh; 
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
+     font-family: 'Montserrat', sans-serif;
+     font-family: 'Nunito Sans', sans-serif;
+     font-family: 'Roboto', sans-serif;
+}
+
+body::before,
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0.001; 
+    background: 
+        url('/landing-page/photos/noisy-background.jpg') repeat; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.myfe-logo {
+    width: 450px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo-text {
+    font-size: 40px;
+    color: #4F5B90;
+    margin: 0;
+    font-weight: 400;
+}
+
+body button {
+    border: none;
+    padding: 12px 34px;
+    border-radius: 4px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.log-in-button {
+    margin-right: 4px;
+    font-size: 18px;
+    border: 1px solid #485B92;
+    background-color: transparent;
+    color: #485B92;
+}
+
+.log-in-button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.log-in-button:active {
+    translate: 0 1%;
+}
+
+.sign-up-button {
+    margin-left: 4px;
+    color: white;
+    background-color: #485B92;
+    font-size: 18px;
+}
+
+.sign-up-button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sign-up-button:active {
+    translate: 0 1%;
+}
+
+a {
+    text-decoration: none;
+    color: #485B92;
+}
+
+a.button-link {
+    border: 1px solid #485B92;
+    padding: 12px 34px;
+    border-radius: 4px;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  
